@@ -35,13 +35,13 @@
       
       /* Style the front side (fallback if image is missing) */
       .flip-card-front {
-        background-color: ;
+      
           color: black;
       }
       
       /* Style the back side */
       .flip-card-back {
-        background-color: ;
+      
         color: white;
         transform: rotateY(180deg);
       }
@@ -324,10 +324,7 @@
       
     }
     
-    #buttonList li{
-    margin-left: ;
-   
-    }
+
     #buttonList a{
       text-decoration: none;
       width: 60px;
@@ -345,7 +342,7 @@
     
     footer{
       width:100%;
-      background: linear-gradient(0deg,#fc4a1a,#f7b733);
+      background:#100e17 ;
       padding: 2%;
       
     
@@ -354,7 +351,7 @@
       width: 70%;
       margin: auto;
       display: flex;
-      flex-direction: ;
+      
       justify-content: space-around;
     }
     
@@ -362,7 +359,8 @@
       
       font-size: 14px;
       font-family: 'Poppins', sans-serif;
-      font-weight: 800;
+      font-weight: 700;
+      color: #ff8a00;
     }
      #contact{
        margin-bottom: 10vh;
