@@ -1,502 +1,440 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="./Images/Logo/xlogo.png">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Xfinity</title>
-    <link rel="stylesheet" href="./ScrollCue/scrollCue.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-<link rel='stylesheet' href="./light.css">
-<link rel='stylesheet' href="./light2.css">
-<script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
 
-
-
-
-
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="./Images/Logo/xlogo.png">
+  <title>Xfinity</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./ScrollCue/scrollCue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <link rel='stylesheet' href="./light.css">
+  <link rel='stylesheet' href="./light2.css">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
   <script src="./ScrollCue/scrollCue.min.js"></script>
-  <body>
-    
-    <div class="mcontainer">
-      <div class="navbarcont">
-    <header>
-      
+</head>
 
-      <div id="logo">
+<body>
+
+  <div class="mcontainer">
+    <div class="navbarcont">
+      <header>
+        <div id="logo">
           <a href="#"><img src="./Images/Logo/logo.png"></a>
-      </div>
-      
-          <ul class="navlinks">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#aboutme">About</a>
-              <li><a href="#skills">Projects</a>
-              <li><a href="#contact">Contact</a>
-          </ul>
-          <div class="burger " onclick="toggleMenu()">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-          </div>
-         
-      
-  </header>
-   <div class="navborder"></div></div>
-  <div id="mm" class="mobilemenu">
-    <ul >
-    <li><a href="index.html">Home</a></li>
-    <li><a href="#aboutme">About</a>
-    <li><a href="#skills">Projects</a>
-    <li><a href="#contact">Contact</a>
-</ul></div>
- 
+        </div>
+        <ul class="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#aboutme">About</a>
+          <li><a href="#skills">Projects</a>
+          <li><a href="#contact">Contact</a>
+        </ul>
+        <div class="burger " onclick="toggleMenu()">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </header>
+      <div class="navborder"></div>
+    </div>
+
+    <div id="mm" class="mobilemenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#aboutme">About</a>
+        <li><a href="#skills">Projects</a>
+        <li><a href="#contact">Contact</a>
+      </ul>
+    </div>
+
     <div class="ccontainer-fluid">
-    <div class="row " >
-      <div class="col-md-8">
-        <div id="greet">
-          <p id="hey"
-              >
-                  Hey<span class="exl" >!</span>, 
-              </p>
-          <p id="intro" >I am  <svg id="sriganesh" viewbox="160 -40 630 150">
-              <text x=50% y=50% fill="transparent" text-anchore="middle">Sriganesh</text>
-          </svg></P>
-          <div><p id="mydesc" >Professional full stack Web developer & programmer.</p></div></div>
-          
-          
-      </div>
-      <div class="col-md-4">
-        <div id="model"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-          <lottie-player src="./yoga.json" speed="1"   loop autoplay></lottie-player></div>
-      </div>
-    </div>
-    </div>
-   <section id="aboutme" data-cues="slideInUp">
-     
-      <p class ="secheadings" >About Me</p>
-            <p id="aboutcontent">I grew up in Padubidri, Udupi, Karnataka. Currently pursuing my Bachelor of Engineering Degree in Computer Science. With experience in Web Development/ Design. I maintain a healthy balance between functionality and visual impact in my work. I am primarily a programmer with  pretty good
-                    problem&#8209solving skills. 
+      <div class="row ">
+        <div class="col-md-8">
+          <div id="greet">
+            <p id="hey">
+              Hey<span class="exl">!</span>,
             </p>
-            <div class="timeline">
-                <div class="ccontainer left">
-                  <div class="ccontent">
-                    <h2>2022</h2>
-                    <h4>B.E Degree</h4>
-                    <p>
-                        St.Joseph Engineering college,Mangalore
-                    </p>
-                  </div>
-                </div>
-                <div class="ccontainer right">
-                  <div class="ccontent">
-                    <h2>2018</h2>
-                    <h4>12th</h4>
-                    <p>
-                       Poorna Prajna College,Udupi
-                    </p>
-                  </div>
-                </div>
-                <div class="ccontainer left">
-                    <div class="ccontent">
-                      <h2>2016</h2>
-                      <h4>10th</h4>
-                      <p>
-                          Sagar Vidya Mandir,Padubidri
-                      </p>
-                    </div>
-                  </div>
-              </div>    
+            <p id="intro">I am <svg id="sriganesh" viewbox="160 -40 630 150">
+                <text x=50% y=50% fill="transparent" text-anchore="middle">Sriganesh</text>
+              </svg></P>
+            <div>
+              <p id="mydesc">Professional full stack Web developer & programmer.</p>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-md-4">
+          <div id="model">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="./yoga.json" speed="1" loop autoplay></lottie-player>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="aboutme" data-cues="slideInUp">
+
+      <p class="secheadings">About Me</p>
+      <p id="aboutcontent">I grew up in Padubidri, Udupi, Karnataka. Currently pursuing my Bachelor of Engineering
+        Degree in Computer Science. With experience in Web Development/ Design. I maintain a healthy balance between
+        functionality and visual impact in my work. I am primarily a programmer with pretty good
+        problem&#8209solving skills.
+      </p>
+      <div class="timeline">
+        <div class="ccontainer left">
+          <div class="ccontent">
+            <h2>2022</h2>
+            <h4>B.E Degree</h4>
+            <p>
+              St.Joseph Engineering college,Mangalore
+            </p>
+          </div>
+        </div>
+        <div class="ccontainer right">
+          <div class="ccontent">
+            <h2>2018</h2>
+            <h4>12th</h4>
+            <p>
+              Poorna Prajna College,Udupi
+            </p>
+          </div>
+        </div>
+        <div class="ccontainer left">
+          <div class="ccontent">
+            <h2>2016</h2>
+            <h4>10th</h4>
+            <p>
+              Sagar Vidya Mandir,Padubidri
+            </p>
+          </div>
+        </div>
+      </div>
 
     </section>
     <section id="skills" data-cues="slideInUp">
-            <p class="secheadings">skills</p>
-            <div></div>
-            <div class="skillbox">
-                <div id="skillbox1">
-                    <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                          <div class="containerSkill" >
-                              <img src="./Images/Skills/001-laptop.png" height="150" weight="150">
-                               <p>
-                                   Programming
-                               </p>
-                          </div>
-                              
-                        </div>
-                        <div class="flip-card-back">
-                          <ul class="skillList">
-                            <li>C</li>
-                            <li>C++</li>
-                            <li>C#</li>
-                            <li>Java</li>
-                            <li>Python</li>
-                            
-                        </ul>
-                        </div>
-                      </div>
+      <p class="secheadings">skills</p>
+      <div></div>
+      <div class="skillbox">
+        <div id="skillbox1">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="containerSkill">
+                  <img src="./Images/Skills/001-laptop.png" height="150" weight="150">
+                  <p>
+                    Programming
+                  </p>
+                </div>
+
+              </div>
+              <div class="flip-card-back">
+                <ul class="skillList">
+                  <li>C</li>
+                  <li>C++</li>
+                  <li>C#</li>
+                  <li>Java</li>
+                  <li>Python</li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="skillbox2">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="containerSkill">
+                  <img src="./Images/Skills/003-edition.png" height="150" weight="150">
+                  <p>
+                    Frontend
+                  </p>
+                </div>
+
+              </div>
+              <div class="flip-card-back">
+                <ul class="skillList">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="skillbox3">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="containerSkill">
+                  <img src="./Images/Skills/018-harddisk.png" height="150" weight="150">
+                  <p>
+                    Backend
+                  </p>
+                </div>
+
+              </div>
+              <div class="flip-card-back">
+                <ul class="skillList">
+                  <li>Node.js</li>
+                  <li>PHP</li>
+
+
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+    <section id="projects" data-cues="slideInUp">
+      <p class="secheadings">Projects</p>
+      <!-- Carousel wrapper -->
+      <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+        <!-- Controls -->
+        <div class="d-flex justify-content-center mb-4">
+          <button class="carousel-control-prev position-relative" type="button"
+            data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+            <img src="./Images/Arrows/left.png">
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next position-relative" type="button"
+            data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+            <img src="./Images/Arrows/right.png">
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Inner -->
+        <div class="carousel-inner py-4">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
+                    <img src="./Images/Projects/Zooland.png" class="card-img-top" alt="..." />
+                    <div class="card-body ">
+                      <h5 class="card-title">Zoo Management System</h5>
+                      <p class="card-text">
+                        Using PHP
+                      </p>
+                      <a href="#!" class="btn btn-primary">Source</a>
                     </div>
                   </div>
-            
-            <div id="skillbox2">
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <div class="containerSkill" >
-                        <img src="./Images/Skills/003-edition.png" height="150" weight="150">
-                         <p>
-                             Frontend
-                         </p>
+                </div>
+
+                <div class="col-lg-4 d-none d-lg-block">
+                  <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
+                    <img src="./Images/Projects/decorDesigner.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Interior Designer Website</h5>
+                      <p class="card-text">
+                        Using Bootstrap
+                      </p>
+                      <a href="#!" class="btn btn-primary">Source</a>
                     </div>
-                        
                   </div>
-                  <div class="flip-card-back">
-                    <ul class="skillList">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>Bootstrap</li>
-                      
-                  </ul>
+                </div>
+
+                <div class="col-lg-4 d-none d-lg-block">
+                  <div class="card " data-tilt data-tilt-glare data-tilt-max-glare="0.6">
+                    <img src="./Images/Projects/FileTransfer.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">File Transfer Application</h5>
+                      <p class="card-text">
+                        Using windows Form (.NET)
+                      </p>
+                      <a href="https://github.com/Xfinity-bot/Server-Receiver" class="btn btn-primary">Source</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-    
-  
-  <div id="skillbox3">
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="containerSkill" >
-              <img src="./Images/Skills/018-harddisk.png" height="150" weight="150">
-               <p>
-                   Backend
-               </p>
           </div>
-              
-        </div>
-        <div class="flip-card-back">
-          <ul class="skillList">
-            <li>Node.js</li>
-            <li>PHP</li>
-            
-            
-            
-        </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-  
-</section>
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
-></script>
-<section id="projects" data-cues="slideInUp">
-  <p class="secheadings">Projects</p>
-  <!-- Carousel wrapper -->
-<div
-id="carouselMultiItemExample"
-class="carousel slide carousel-dark text-center"
-data-mdb-ride="carousel"
->
-<!-- Controls -->
-<div class="d-flex justify-content-center mb-4">
-  <button
-    class="carousel-control-prev position-relative"
-    type="button"
-    data-mdb-target="#carouselMultiItemExample"
-    data-mdb-slide="prev"
-  >
-    <img src="./Images/Arrows/left.png">
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next position-relative"
-    type="button"
-    data-mdb-target="#carouselMultiItemExample"
-    data-mdb-slide="next"
-  >
-  <img src="./Images/Arrows/right.png">
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!-- Inner -->
-<div class="carousel-inner py-4">
-  <!-- Single item -->
-  <div class="carousel-item active">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
-            <img
-              src="./Images/Projects/Zooland.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body " >
-              <h5 class="card-title">Zoo Management System</h5>
-              <p class="card-text">
-                Using PHP
-              </p>
-              <a href="#!" class="btn btn-primary">Source</a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-lg-4 d-none d-lg-block">
-          <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
-            <img
-              src="./Images/Projects/decorDesigner.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Interior Designer Website</h5>
-              <p class="card-text">
-                Using Bootstrap
-              </p>
-              <a href="#!" class="btn btn-primary">Source</a>
-            </div>
-          </div>
-        </div>
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-12">
+                  <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
+                    <img src="./Images/Projects/ClutchMasters.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Event Template</h5>
+                      <p class="card-text">
+                        Using HTML/CSS/JS
+                      </p>
+                      <a href="https://github.com/Xfinity-bot/ClutchMasters" class="btn btn-primary">Source</a>
+                    </div>
+                  </div>
+                </div>
 
-        <div class="col-lg-4 d-none d-lg-block">
-          <div class="card " data-tilt data-tilt-glare data-tilt-max-glare="0.6">
-            <img
-              src="./Images/Projects/FileTransfer.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">File Transfer Application</h5>
-              <p class="card-text">
-                Using windows Form (.NET)
-              </p>
-              <a href="https://github.com/Xfinity-bot/Server-Receiver" class="btn btn-primary">Source</a>
+                <div class="col-lg-4 d-none d-lg-block">
+                  <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
+                    <img src="./Images/Projects/mac.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Municipal Action Center</h5>
+                      <p class="card-text">
+                        Using Flask
+                      </p>
+                      <a href="https://github.com/data-charya/Bytecode-Velocity" class="btn btn-primary">Source</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 d-none d-lg-block">
+                  <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
+                    <img src="./Images/Projects/TokyoGhoul.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Template</h5>
+                      <p class="card-text">
+                        Using HTML/CSS/JS
+                      </p>
+                      <a href="https://github.com/Xfinity-bot/TokyoGhoul" class="btn btn-primary">Source</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <!-- Single item -->
-  <div class="carousel-item">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-12">
-          <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
-            <img
-              src="./Images/Projects/ClutchMasters.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Event Template</h5>
-              <p class="card-text">
-                Using HTML/CSS/JS
-              </p>
-              <a href="https://github.com/Xfinity-bot/ClutchMasters" class="btn btn-primary">Source</a>
+
+    </section>
+    <section id="contact" data-cues="slideInUp">
+      <p class="secheadings">Contact Me</p>
+      <div class="parentcontainer">
+        <div class="container">
+
+          <form action="https://formsubmit.co/sriganesh7334@gmail.com" method="POST">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 d-none d-lg-block">
-          <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
-            <img
-              src="./Images/Projects/mac.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Municipal Action Center</h5>
-              <p class="card-text">
-                Using Flask 
-              </p>
-              <a href="https://github.com/data-charya/Bytecode-Velocity" class="btn btn-primary">Source</a>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 d-none d-lg-block">
-          <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.6">
-            <img
-              src="./Images/Projects/TokyoGhoul.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Template</h5>
-              <p class="card-text">
-                Using HTML/CSS/JS
-              </p>
-              <a href="https://github.com/Xfinity-bot/TokyoGhoul" class="btn btn-primary">Source</a>
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email id</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="email" name="email" placeholder="Your email id..">
+              </div>
             </div>
-          </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" value="New Contact submission!">
+            <input type="hidden" name="_next" value="https://xfinity-bot.github.io/portfolio">
+          </form>
+
+
+        </div>
+        <div class="mediacontainer">
+          <ul id="buttonList">
+            <li><a href="https://www.linkedin.com/in/sriganesh-rao-1b6a921a5/"><span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span></a></li>
+            <li><a href="https://github.com/Xfinity-bot/"><span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span></a></li>
+            <li><a href=""><span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span></a></li>
+          </ul>
         </div>
       </div>
-    </div>
-  </div>
 
- 
-</div>
-<!-- Inner -->
-</div>
-<!-- Carousel wrapper -->
-  
-
-
-</section>
-<section id="contact" data-cues="slideInUp">
-  <p class ="secheadings">Contact Me</p>
-  <div class="parentcontainer">
-  <div class="container">
-
-    <form action="https://formsubmit.co/sriganesh7334@gmail.com" method="POST">
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">First Name</label>
+    </section>
+    <div class="navborder"></div>
+    <footer>
+      <div class="contfooter">
+        <div>
+          <p>
+            &copy 2020 Copyright Xfinity
+          </p>
+        </div>
+        <div>
+          <p id="footermail">Email ID: sriganesh7334@gmail.com</p>
+        </div>
       </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Last Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </div>
-    </div>
-     <div class="row">
-      <div class="col-25">
-        <label for="email">Email id</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="email" name="email" placeholder="Your email id..">
-      </div>
-    </div>
-    <div class="row">
-      <input type="submit" value="Submit">
-    </div>
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_subject" value="New Contact submission!">
-    <input type="hidden" name="_next" value="https://xfinity-bot.github.io/portfolio">
-    </form>
+    </footer>
 
 
-  </div>
-  <div class="mediacontainer">
-    <ul id="buttonList">
-      <li><a href="https://www.linkedin.com/in/sriganesh-rao-1b6a921a5/"><span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-      </span></a></li>
-      <li><a href="https://github.com/Xfinity-bot/"><span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-      </span></a></li>
-      <li><a href=""><span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-      </span></a></li>
-    </ul>
-  </div>
-</div>
-
-</section>
-<div class="navborder"></div>
-<footer>
-  <div class="contfooter">
-    <div><p>
-      &copy 2020 Copyright Xfinity                
-    </p></div>
-    <div>
-      <p id="footermail">Email ID: sriganesh7334@gmail.com</p>
-    </div>
-    
-  </div>
-  
-
-
-</footer>
-   
- 
-   
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
-
-    
-    
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
     <script src="anime.min.js"></script>
- 
+
     <script>
-    scrollCue.init();
-      function toggleMenu(){
-        var d=document.querySelector('.burger')
+      scrollCue.init();
+
+      function toggleMenu() {
+        var d = document.querySelector('.burger')
         d.classList.toggle('clicked');
- var menu =document.querySelector('.mobilemenu')
- menu.classList.toggle("active");
+        var menu = document.querySelector('.mobilemenu')
+        menu.classList.toggle("active");
 
       }
+    </script>
+    <script>
+      new Splide('.splide', {
+        type: 'loop',
+        perPage: 3,
+        perMove: 1,
+        focus: 'center',
+        gap: '3vw',
+        pagination: false,
+        width: '100%',
+        autoplay: true,
+        interval: 2000,
+        height: '450px',
+        scale: 0.5,
+        breakpoints: {
+          640: {
+            perPage: 1,
+            gap: '10vw',
 
-     
-</script>
-<script>
-  new Splide( '.splide',{
-    type   : 'loop',
-    perPage: 3,
-      perMove: 1,
-      focus    : 'center',
-      gap:'3vw',
-      pagination:false,
-      width:'100%',
-      autoplay:true,
-      interval:2000,
-      height:'450px',
-      scale:0.5,
-      breakpoints: {
-      640: {
-        perPage: 1,
-        gap:'10vw',
-        
-      },}
-     
-     
-  } ).mount();
-  
-  
-  </script>
-  <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+          },
+        }
 
 
-  </body>
-  
+      }).mount();
+    </script>
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+
+
+</body>
+
 </html>
